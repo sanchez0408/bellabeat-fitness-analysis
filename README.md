@@ -32,17 +32,18 @@ FitBit Fitness Tracker Data (Kaggle)
 
 March 2016 – May 2016
 
-Main Tables Used
-Table	Description
-Daily Activity	Daily activity metrics
-Hourly Steps	Hourly step counts
-Sleep Time	Sleep tracking records
-Tools Used
-Tool	Purpose
-SQL (BigQuery)	Data cleaning and analysis
-Tableau	Data visualization
-Kaggle	Project publication
-GitHub	Documentation and portfolio
+| Table          | Description            |
+| -------------- | ---------------------- |
+| Daily Activity | Daily activity metrics |
+| Hourly Steps   | Hourly step counts     |
+| Sleep Time     | Sleep tracking records |
+
+| Table          | Description            |
+| -------------- | ---------------------- |
+| Daily Activity | Daily activity metrics |
+| Hourly Steps   | Hourly step counts     |
+| Sleep Time     | Sleep tracking records |
+
 Data Preparation
 
 The analysis followed a structured workflow:
