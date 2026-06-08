@@ -19,11 +19,12 @@ Bellabeat wants to better understand how consumers use smart fitness devices and
 
 - Key Questions
 - How active are Bellabeat users?
-What are their sleep habits?
-Are there identifiable behavioral patterns?
-How are activity and sleep related?
-What business opportunities emerge from the analysis?
-Dataset
+- What are their sleep habits?
+- Are there identifiable behavioral patterns?
+- How are activity and sleep related?
+- What business opportunities emerge from the analysis?
+  Dataset
+  
 Source
 
 FitBit Fitness Tracker Data (Kaggle)
@@ -49,16 +50,17 @@ Data Preparation
 The analysis followed a structured workflow:
 
 1. Exploratory Analysis
-Dataset structure review
-User coverage validation
-Duplicate detection
-Date range verification
-Data quality assessment
+- Dataset structure review
+- User coverage validation
+- Duplicate detection
+- Date range verification
+- Data quality assessment
+
 2. Data Cleaning
-Duplicate removal
-Date standardization
-Validation of activity metrics
-Creation of analysis-ready tables
+- Duplicate removal
+- Date standardization
+- Validation of activity metrics
+- Creation of analysis-ready tables
 
 SQL queries are available in the /sql folder.
 
