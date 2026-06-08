@@ -3,9 +3,9 @@ End-to-end fitness data analysis using SQL, BigQuery and Tableau to identify use
 
 ---
 
-# 🏃 Bellabeat Fitness Data Analysis
+## 🏃 Bellabeat Fitness Data Analysis
 
-Project Overview
+### 💻 Project Overview
 
 This project was completed as part of the Google Data Analytics Professional Certificate.
 
