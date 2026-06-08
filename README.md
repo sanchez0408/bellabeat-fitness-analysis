@@ -17,8 +17,8 @@ Using SQL (BigQuery) and Tableau, the analysis explores physical activity, sleep
 
 Bellabeat wants to better understand how consumers use smart fitness devices and how these insights can support future marketing and product strategies.
 
-Key Questions
-How active are Bellabeat users?
+- Key Questions
+- How active are Bellabeat users?
 What are their sleep habits?
 Are there identifiable behavioral patterns?
 How are activity and sleep related?
