@@ -1,7 +1,10 @@
 # bellabeat-fitness-analysis
 End-to-end fitness data analysis using SQL, BigQuery and Tableau to identify user behavior patterns and provide business recommendations for Bellabeat.
+
 ---
-🏃 Bellabeat Fitness Data Analysis
+
+# 🏃 Bellabeat Fitness Data Analysis
+
 Project Overview
 
 This project was completed as part of the Google Data Analytics Professional Certificate.
@@ -59,7 +62,7 @@ Creation of analysis-ready tables
 SQL queries are available in the /sql folder.
 
 Analysis Highlights
-1. Activity Patterns
+## 1. Activity Patterns
 Key Findings
 Activity peaks occur around 12 PM, 6 PM, and 7 PM.
 Saturday records the highest average activity level.
@@ -68,7 +71,7 @@ Insight
 
 Approximately 50% of users are classified as afternoon-active users, suggesting that engagement strategies should adapt to different activity schedules.
 
-2. Sleep Habits
+## 2. Sleep Habits
 Key Findings
 12 of 25 users average less than 6 hours of sleep.
 Only 6 users meet the recommended 7–8 hour range.
@@ -77,7 +80,7 @@ Insight
 
 Sleep deprivation appears common within the sample, creating opportunities for sleep-focused coaching and engagement features.
 
-3. Activity & Sleep
+## 3. Activity & Sleep
 Key Findings
 More active users generally sleep longer.
 Higher activity levels are associated with fewer restless minutes.
@@ -86,7 +89,7 @@ Insight
 
 Activity alone does not fully explain sleep quality, but users with healthier activity profiles tend to show better sleep outcomes.
 
-4. Activity Correlation Analysis
+## 4. Activity Correlation Analysis
 Key Findings
 No significant relationship between daily steps and sleep duration (R² ≈ 0.01).
 Daily steps show only a weak relationship with calorie expenditure (R² ≈ 0.05).
