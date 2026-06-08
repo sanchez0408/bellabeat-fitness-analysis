@@ -13,7 +13,7 @@ The objective was to analyze smart device fitness data to identify user behavior
 
 Using SQL (BigQuery) and Tableau, the analysis explores physical activity, sleep habits, sedentary behavior, and the relationships between these metrics.
 
-Business Task
+### 🎯 Business Task
 
 Bellabeat wants to better understand how consumers use smart fitness devices and how these insights can support future marketing and product strategies.
 
@@ -28,7 +28,7 @@ Source
 
 FitBit Fitness Tracker Data (Kaggle)
 
-Period
+### 📅 Period
 
 March 2016 – May 2016
 
