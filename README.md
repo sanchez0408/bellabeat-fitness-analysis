@@ -25,7 +25,7 @@ Bellabeat wants to better understand how consumers use smart fitness devices and
 - What business opportunities emerge from the analysis?
   Dataset
   
-Source
+#### 💾 Source
 
 FitBit Fitness Tracker Data (Kaggle)
 
