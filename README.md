@@ -39,11 +39,13 @@ March 2016 – May 2016
 | Hourly Steps   | Hourly step counts     |
 | Sleep Time     | Sleep tracking records |
 
-| Table          | Description            |
-| -------------- | ---------------------- |
-| Daily Activity | Daily activity metrics |
-| Hourly Steps   | Hourly step counts     |
-| Sleep Time     | Sleep tracking records |
+| Tool           | Purpose                     |
+| -------------- | --------------------------- |
+| SQL (BigQuery) | Data cleaning and analysis  |
+| Tableau        | Data visualization          |
+| Kaggle         | Project publication         |
+| GitHub         | Documentation and portfolio |
+
 
 Data Preparation
 
