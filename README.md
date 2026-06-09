@@ -125,10 +125,6 @@ The analysis followed a structured workflow:
 
 - Sedentary behavior shows the strongest observed relationship with sleep duration, suggesting it may be an important factor to monitor alongside overall activity levels
 
-Dashboard Preview
-
-<img src="dashboard/cover_page.png" width="900">
-
 ## 🏆 Business Recommendations
 **1. Personalize Engagement by Activity Profile**
 
@@ -149,6 +145,10 @@ Dashboard Preview
 **5. Encourage Consistent Night Wear**
 
 - Increase sleep data coverage through onboarding prompts and sleep-tracking education
+
+## 📷 Dashboard Preview
+
+<img src="dashboard/overview.png" width="900">
 
 Project Links
 Tableau Dashboard
