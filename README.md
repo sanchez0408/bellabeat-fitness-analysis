@@ -125,6 +125,7 @@ The analysis followed a structured workflow:
 
 - Sedentary behavior shows the strongest observed relationship with sleep duration, suggesting it may be an important factor to monitor alongside overall activity levels
 
+---
 ## 🏆 Business Recommendations
 **1. Personalize Engagement by Activity Profile**
 
@@ -146,10 +147,12 @@ The analysis followed a structured workflow:
 
 - Increase sleep data coverage through onboarding prompts and sleep-tracking education
 
+---
 ## 📷 Dashboard Preview
 
 <img src="dashboard/overview.png" width="600">
 
+---
 ## 📎 Project Links
 Tableau Dashboard
 
