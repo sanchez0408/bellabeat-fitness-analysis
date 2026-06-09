@@ -81,6 +81,7 @@ The analysis followed a structured workflow:
 ## 2. Sleep Habits
 #### Key Findings:
 - 12 of 25 users average less than 6 hours of sleep
+- 19 out of 25 users sleep less than the health recommendations
 - Only 6 users meet the recommended 7–8 hour range
 - Users sleep longer on weekends
   
@@ -97,6 +98,8 @@ The analysis followed a structured workflow:
 **⚡ Insight**
 
 - Activity alone does not fully explain sleep quality, but users with healthier activity profiles tend to show better sleep outcomes
+
+The previous analysis identified patterns between activity levels and sleep outcomes. To determine whether these patterns reflect meaningful relationships, a correlation analysis was performed between key activity and sleep variables
 
 ## 4. Activity Correlation Analysis
 #### Key Findings:
