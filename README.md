@@ -23,7 +23,7 @@ Bellabeat wants to better understand how consumers use smart fitness devices and
 - Are there identifiable behavioral patterns?
 - How are activity and sleep related?
 - What business opportunities emerge from the analysis?
-  Dataset
+
   
 #### 💾 Source
 
@@ -33,12 +33,12 @@ FitBit Fitness Tracker Data (Kaggle)
 
 March 2016 – May 2016
 
-| Table            | Description            | Users | 
-| --------------   | ---------------------- | ----- |
-| Daily Activity   | Daily activity metrics | 35
-| Hourly Steps     | Hourly step counts     | 33
-| Sleep Time       | Sleep tracking records | 25
-| Activity & Sleep | 
+| Table            | Description                    | Users | 
+| ---------------- | ------------------------------ | ----- |
+| Daily Activity   | Daily activity metrics         | 35    |
+| Hourly Steps     | Hourly step counts             | 33    |
+| Sleep Time       | Sleep tracking records         | 25    |
+| Activity & Sleep | Merged activity and sleep data | 24    |
 
 | Tool           | Purpose                     |
 | -------------- | --------------------------- |
@@ -76,7 +76,7 @@ Analysis Highlights
 
 **⚡ Insight**
 
-- Approximately 50% of users are considered active in the afternoon; however, since engagement varies greatly from user to user, it is best to personalize reminders for each user
+- Activity patterns differ across users, making personalized reminders more effective
 
 ## 2. Sleep Habits
 #### Key Findings:
@@ -86,7 +86,7 @@ Analysis Highlights
   
 **⚡ Insight**
 
-- Sleep deprivation appears common within the sample, creating opportunities for sleep-focused coaching and engagement features
+- 76% of users fall below recommended sleep levels
 
 ## 3. Activity & Sleep
 #### Key Findings:
