@@ -47,7 +47,7 @@ March 2016 – May 2016
 | GitHub         | Documentation and portfolio |
 
 
-Data Preparation
+### 📝 Data Preparation
 
 The analysis followed a structured workflow:
 
@@ -64,7 +64,7 @@ The analysis followed a structured workflow:
 - Validation of activity metrics
 - Creation of analysis-ready tables
 
-SQL queries are available in the /sql folder
+📓 SQL queries are available in the /sql folder
 
 Analysis Highlights
 ## 1. Activity Patterns
@@ -73,9 +73,9 @@ Analysis Highlights
 - Saturday records the highest average activity level
 - User behavior is fragmented rather than uniform
 
-⚡ Insight
+**⚡ Insight
 
-Approximately 50% of users are classified as afternoon-active users, suggesting that engagement strategies should adapt to different activity schedules
+- Approximately 50% of users are classified as afternoon-active users, suggesting that engagement strategies should adapt to different activity schedules
 
 ## 2. Sleep Habits
 #### Key Findings:
@@ -83,9 +83,9 @@ Approximately 50% of users are classified as afternoon-active users, suggesting 
 - Only 6 users meet the recommended 7–8 hour range
 - Users sleep longer on weekends
   
-⚡ Insight
+**⚡ Insight
 
-Sleep deprivation appears common within the sample, creating opportunities for sleep-focused coaching and engagement features
+- Sleep deprivation appears common within the sample, creating opportunities for sleep-focused coaching and engagement features
 
 ## 3. Activity & Sleep
 #### Key Findings:
@@ -93,9 +93,9 @@ Sleep deprivation appears common within the sample, creating opportunities for s
 - Higher activity levels are associated with fewer restless minutes
 - Sedentary time remains high across all groups
 
-⚡ Insight
+**⚡ Insight
 
-Activity alone does not fully explain sleep quality, but users with healthier activity profiles tend to show better sleep outcomes
+- Activity alone does not fully explain sleep quality, but users with healthier activity profiles tend to show better sleep outcomes
 
 ## 4. Activity Correlation Analysis
 #### Key Findings:
@@ -104,9 +104,9 @@ Activity alone does not fully explain sleep quality, but users with healthier ac
 - No significant relationship between very active minutes and restless sleep (R² ≈ 0.02)
 - Sedentary behavior shows the strongest observed relationship with sleep duration (R² ≈ 0.64)
 
-⚡ Insight
+**⚡ Insight
 
-Sedentary behavior appears more strongly associated with sleep duration than overall activity volume. Reducing inactivity may have a greater impact on sleep outcomes than simply increasing daily step counts.
+- Sedentary behavior appears more strongly associated with sleep duration than overall activity volume. Reducing inactivity may have a greater impact on sleep outcomes than simply increasing daily step counts.
 
 Dashboard Preview
 Behavioral Habit Dashboard
