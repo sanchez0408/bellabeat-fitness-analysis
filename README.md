@@ -33,11 +33,12 @@ FitBit Fitness Tracker Data (Kaggle)
 
 March 2016 – May 2016
 
-| Table          | Description            |
-| -------------- | ---------------------- |
-| Daily Activity | Daily activity metrics |
-| Hourly Steps   | Hourly step counts     |
-| Sleep Time     | Sleep tracking records |
+| Table            | Description            | Users | 
+| --------------   | ---------------------- | ----- |
+| Daily Activity   | Daily activity metrics | 35
+| Hourly Steps     | Hourly step counts     | 33
+| Sleep Time       | Sleep tracking records | 25
+| Activity & Sleep | 
 
 | Tool           | Purpose                     |
 | -------------- | --------------------------- |
@@ -75,7 +76,7 @@ Analysis Highlights
 
 **⚡ Insight**
 
-- Approximately 50% of users are classified as afternoon-active users, suggesting that engagement strategies should adapt to different activity schedules
+- Approximately 50% of users are considered active in the afternoon; however, since engagement varies greatly from user to user, it is best to personalize reminders for each user
 
 ## 2. Sleep Habits
 #### Key Findings:
