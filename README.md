@@ -99,7 +99,9 @@ The analysis followed a structured workflow:
 
 - Activity alone does not fully explain sleep quality, but users with healthier activity profiles tend to show better sleep outcomes
 
-The previous analysis identified patterns between activity levels and sleep outcomes. To determine whether these patterns reflect meaningful relationships, a correlation analysis was performed between key activity and sleep variables
+---
+
+**Note:** The previous analysis identified patterns between activity levels and sleep outcomes. To determine whether these patterns reflect meaningful relationships, a correlation analysis was performed between key activity and sleep variables
 
 ## 4. Activity Correlation Analysis
 #### Key Findings:
