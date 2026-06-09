@@ -74,7 +74,7 @@ The analysis followed a structured workflow:
 - Saturday records the highest average activity level
 - User behavior is fragmented rather than uniform
 
-**⚡ Insight**
+#### ⚡ Insight
 
 - Activity patterns differ across users, making personalized reminders more effective
 
@@ -85,7 +85,7 @@ The analysis followed a structured workflow:
 - Only 6 users meet the recommended 7–8 hour range
 - Users sleep longer on weekends
   
-**⚡ Insight**
+#### ⚡ Insight
 
 - 76% of users fall below recommended sleep levels
 
@@ -95,7 +95,7 @@ The analysis followed a structured workflow:
 - Higher activity levels are associated with fewer restless minutes
 - Sedentary time remains high across all groups
 
-**⚡ Insight**
+#### ⚡ Insight
 
 - Activity alone does not fully explain sleep quality, but users with healthier activity profiles tend to show better sleep outcomes
 
@@ -110,7 +110,7 @@ The analysis followed a structured workflow:
 - No significant relationship between very active minutes and restless sleep (R² ≈ 0.02)
 - Sedentary behavior shows the strongest observed relationship with sleep duration (R² ≈ 0.64)
 
-**⚡ Insight**
+#### ⚡ Insight
 
 - Sedentary behavior appears more strongly associated with sleep duration than overall activity volume. Reducing inactivity may have a greater impact on sleep outcomes than simply increasing daily step counts.
 
