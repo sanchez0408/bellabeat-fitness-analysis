@@ -73,7 +73,7 @@ Analysis Highlights
 - Saturday records the highest average activity level
 - User behavior is fragmented rather than uniform
 
-Insight
+⚡ Insight
 
 Approximately 50% of users are classified as afternoon-active users, suggesting that engagement strategies should adapt to different activity schedules
 
@@ -83,7 +83,7 @@ Approximately 50% of users are classified as afternoon-active users, suggesting 
 - Only 6 users meet the recommended 7–8 hour range
 - Users sleep longer on weekends
   
-Insight
+⚡ Insight
 
 Sleep deprivation appears common within the sample, creating opportunities for sleep-focused coaching and engagement features
 
@@ -93,7 +93,7 @@ Sleep deprivation appears common within the sample, creating opportunities for s
 - Higher activity levels are associated with fewer restless minutes
 - Sedentary time remains high across all groups
 
-Insight
+⚡ Insight
 
 Activity alone does not fully explain sleep quality, but users with healthier activity profiles tend to show better sleep outcomes
 
@@ -104,7 +104,7 @@ Activity alone does not fully explain sleep quality, but users with healthier ac
 - No significant relationship between very active minutes and restless sleep (R² ≈ 0.02)
 - Sedentary behavior shows the strongest observed relationship with sleep duration (R² ≈ 0.64)
 
-Insight
+⚡ Insight
 
 Sedentary behavior appears more strongly associated with sleep duration than overall activity volume. Reducing inactivity may have a greater impact on sleep outcomes than simply increasing daily step counts.
 
@@ -132,19 +132,19 @@ Deliver notifications, challenges, and coaching content aligned with each user's
 
 **2. Highlight the Sleep–Sedentary Behavior Connection**
 
-Provide personalized insights showing how sedentary behavior may affect sleep duration
+- Provide personalized insights showing how sedentary behavior may affect sleep duration
 
 **3. Target the Under-Sleeping Majority**
 
-Develop features focused on sleep improvement, including bedtime reminders and sleep quality tracking
+- Develop features focused on sleep improvement, including bedtime reminders and sleep quality tracking
 
 **4. Address Sedentary Time Through Movement Nudges**
 
-Encourage regular movement throughout the day to reduce inactivity
+- Encourage regular movement throughout the day to reduce inactivity
 
 **5. Encourage Consistent Night Wear**
 
-Increase sleep data coverage through onboarding prompts and sleep-tracking education
+- Increase sleep data coverage through onboarding prompts and sleep-tracking education
 
 Project Links
 Tableau Dashboard
