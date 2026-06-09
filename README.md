@@ -150,14 +150,14 @@ The analysis followed a structured workflow:
 
 <img src="dashboard/overview.png" width="600">
 
-Project Links
+## 📎 Project Links
 Tableau Dashboard
 
-(Ton lien Tableau Public)
+[View Tableau](https://public.tableau.com/views/BellabeatFitnessDataAnalysis_17788563227930/Coverpage?:language=es-ES&:sid=&:display_count=n&:origin=viz_share_link)
 
 Kaggle Notebook
 
-(Ton lien Kaggle)
+[View Kaggle](https://www.kaggle.com/code/guillaumesanchez4/bellabeat-case-study)
 
 Author
 
