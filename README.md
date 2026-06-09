@@ -153,6 +153,18 @@ The analysis followed a structured workflow:
 <img src="dashboard/overview.png" width="600">
 
 ---
+## 🛠 Skills Demonstrated
+
+- SQL
+- BigQuery
+- Data Cleaning
+- Exploratory Data Analysis
+- Data Visualization
+- Tableau
+- Data Storytelling
+- Business Recommendations
+
+---
 ## 📎 Project Links
 Tableau Dashboard
 
