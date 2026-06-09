@@ -126,23 +126,23 @@ Recommendations Dashboard
 (Insert image here)
 
 ### 🏆 Business Recommendations
-1. Personalize Engagement by Activity Profile
+**1. Personalize Engagement by Activity Profile**
 
 Deliver notifications, challenges, and coaching content aligned with each user's preferred activity window
 
-2. Highlight the Sleep–Sedentary Behavior Connection
+**2. Highlight the Sleep–Sedentary Behavior Connection**
 
 Provide personalized insights showing how sedentary behavior may affect sleep duration
 
-3. Target the Under-Sleeping Majority
+**3. Target the Under-Sleeping Majority**
 
 Develop features focused on sleep improvement, including bedtime reminders and sleep quality tracking
 
-4. Address Sedentary Time Through Movement Nudges
+**4. Address Sedentary Time Through Movement Nudges**
 
 Encourage regular movement throughout the day to reduce inactivity
 
-5. Encourage Consistent Night Wear
+**5. Encourage Consistent Night Wear**
 
 Increase sleep data coverage through onboarding prompts and sleep-tracking education
 
