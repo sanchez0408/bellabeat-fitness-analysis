@@ -126,21 +126,8 @@ The analysis followed a structured workflow:
 - Sedentary behavior shows the strongest observed relationship with sleep duration, suggesting it may be an important factor to monitor alongside overall activity levels
 
 Dashboard Preview
-Behavioral Habit Dashboard
 
-(Insert image here)
-
-Sleep Habit Dashboard
-
-(Insert image here)
-
-Activity Correlation Dashboard
-
-(Insert image here)
-
-Recommendations Dashboard
-
-(Insert image here)
+<img src="dashboard/cover_page.png" width="900">
 
 ## 🏆 Business Recommendations
 **1. Personalize Engagement by Activity Profile**
