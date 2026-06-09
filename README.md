@@ -68,7 +68,7 @@ The analysis followed a structured workflow:
 📓 SQL queries are available in the /sql folder
 
 ## 📊 Analysis Highlights
-## 1. Activity Patterns
+### 1. Activity Patterns
 #### Key Findings:
 - Activity peaks occur around 12 PM, 6 PM, and 7 PM
 - Saturday records the highest average activity level
@@ -78,7 +78,7 @@ The analysis followed a structured workflow:
 
 - Activity patterns differ across users, making personalized reminders more effective
 
-## 2. Sleep Habits
+### 2. Sleep Habits
 #### Key Findings:
 - 12 of 25 users average less than 6 hours of sleep
 - 19 out of 25 users sleep less than the health recommendations
@@ -89,7 +89,7 @@ The analysis followed a structured workflow:
 
 - 76% of users fall below recommended sleep levels
 
-## 3. Activity & Sleep
+### 3. Activity & Sleep
 #### Key Findings:
 - More active users generally sleep longer
 - Higher activity levels are associated with fewer restless minutes
@@ -103,7 +103,7 @@ The analysis followed a structured workflow:
 
 **Note:** The previous analysis identified patterns between activity levels and sleep outcomes. To determine whether these patterns reflect meaningful relationships, a correlation analysis was performed between key activity and sleep variables
 
-## 4. Activity Correlation Analysis
+### 4. Activity Correlation Analysis
 #### Key Findings:
 - No significant relationship between daily steps and sleep duration (R² ≈ 0.01)
 - Daily steps show only a weak relationship with calorie expenditure (R² ≈ 0.05)
