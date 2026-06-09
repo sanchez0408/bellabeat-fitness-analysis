@@ -28,10 +28,11 @@ Bellabeat wants to better understand how consumers use smart fitness devices and
 
 ---
   
-#### 💾 Source
+## 💾 Source
 
 FitBit Fitness Tracker Data (Kaggle)
 
+---
 ## 📅 Period
 
 March 2016 – May 2016
@@ -111,9 +112,7 @@ The analysis followed a structured workflow:
 
 - Activity alone does not fully explain sleep quality, but users with healthier activity profiles tend to show better sleep outcomes
 
----
-
-#### **Note:** The previous analysis identified patterns between activity levels and sleep outcomes. To determine whether these patterns reflect meaningful relationships, a correlation analysis was performed between key activity and sleep variables
+### **Note:** The previous analysis identified patterns between activity levels and sleep outcomes. To determine whether these patterns reflect meaningful relationships, a correlation analysis was performed between key activity and sleep variables
 
 ### 4. Activity Correlation Analysis
 #### 🔑 Key Findings
