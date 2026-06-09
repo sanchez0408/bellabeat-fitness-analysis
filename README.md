@@ -47,7 +47,6 @@ March 2016 – May 2016
 | Kaggle         | Project publication         |
 | GitHub         | Documentation and portfolio |
 
-
 ## 📝 Data Preparation
 
 The analysis followed a structured workflow:
@@ -66,6 +65,15 @@ The analysis followed a structured workflow:
 - Creation of analysis-ready tables
 
 📓 SQL queries are available in the /sql folder
+
+## 🚩 Limitations
+
+- The dataset contains activity and sleep records from a limited sample of Fitbit users
+- Data was collected over approximately two months, which may not reflect long-term behavior
+- Device non-wear or partial wear may affect the accuracy of activity and sleep measurements
+- Demographic information was unavailable, limiting user segmentation and personalization analysis
+- Observed relationships represent correlations and should not be interpreted as causal effects
+- The dataset was collected in 2016, user behavior and wearable technology usage may have evolved since then
 
 ## 📊 Analysis Highlights
 ### 1. Activity Patterns
