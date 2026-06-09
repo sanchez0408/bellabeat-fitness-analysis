@@ -162,6 +162,7 @@ Kaggle Notebook
 
 [View Full Kaggle Analysis](https://www.kaggle.com/code/guillaumesanchez4/bellabeat-case-study)
 
+---
 ## 👤 Author
 
 Guillaume Sanchez
