@@ -148,7 +148,7 @@ The analysis followed a structured workflow:
 
 ## 📷 Dashboard Preview
 
-<img src="dashboard/overview.png" width="900">
+<img src="dashboard/overview.png" width="600">
 
 Project Links
 Tableau Dashboard
