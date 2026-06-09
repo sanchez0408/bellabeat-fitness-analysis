@@ -156,13 +156,13 @@ The analysis followed a structured workflow:
 ## 📎 Project Links
 Tableau Dashboard
 
-[View Tableau](https://public.tableau.com/views/BellabeatFitnessDataAnalysis_17788563227930/Coverpage?:language=es-ES&:sid=&:display_count=n&:origin=viz_share_link)
+[View Interactive Tableau Dashboard](https://public.tableau.com/views/BellabeatFitnessDataAnalysis_17788563227930/Coverpage?:language=es-ES&:sid=&:display_count=n&:origin=viz_share_link)
 
 Kaggle Notebook
 
-[View Kaggle](https://www.kaggle.com/code/guillaumesanchez4/bellabeat-case-study)
+[View Full Kaggle Analysis](https://www.kaggle.com/code/guillaumesanchez4/bellabeat-case-study)
 
-Author
+## 👤 Author
 
 Guillaume Sanchez
 
