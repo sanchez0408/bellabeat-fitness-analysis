@@ -51,18 +51,17 @@ March 2016 – May 2016
 
 The analysis followed a structured workflow:
 
-1. Exploratory Analysis
-- Dataset structure review
-- User coverage validation
-- Duplicate detection
-- Date range verification
-- Data quality assessment
+**Data exploration**
+• Dataset structure review
+• Duplicate detection
+• User coverage validation
+• Data quality assessment
 
-2. Data Cleaning
-- Duplicate removal
-- Date standardization
-- Validation of activity metrics
-- Creation of analysis-ready tables
+**Data Cleaning**
+• Duplicate removal
+• Date standardization
+• Activity metric validation
+• Creation of analysis-ready tables
 
 📓 SQL queries are available in the /sql folder
 
@@ -80,7 +79,7 @@ The analysis followed a structured workflow:
 #### 🔑 Key Findings
 - Activity peaks occur around 12 PM, 6 PM, and 7 PM
 - Saturday records the highest average activity level
-- User behavior is fragmented rather than uniform
+- Activity schedules differ substantially between users
 
 #### ⚡ Insight
 
@@ -88,10 +87,9 @@ The analysis followed a structured workflow:
 
 ### 2. Sleep Habits
 #### 🔑 Key Findings
-- 12 of 25 users average less than 6 hours of sleep
-- 19 out of 25 users sleep less than the health recommendations
-- Only 6 users meet the recommended 7–8 hour range
-- Users sleep longer on weekends
+- 76% of users fall below recommended sleep levels
+- Only 24% meet the recommended 7–8 o more hour range
+- Sleep duration increases on weekends
   
 #### ⚡ Insight
 
@@ -120,7 +118,7 @@ The analysis followed a structured workflow:
 
 #### ⚡ Insight
 
-- Sedentary behavior appears more strongly associated with sleep duration than overall activity volume. Reducing inactivity may have a greater impact on sleep outcomes than simply increasing daily step counts
+- Sedentary behavior shows the strongest observed relationship with sleep duration, suggesting it may be an important factor to monitor alongside overall activity levels
 
 Dashboard Preview
 Behavioral Habit Dashboard
