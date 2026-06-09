@@ -52,16 +52,16 @@ March 2016 – May 2016
 The analysis followed a structured workflow:
 
 **Data exploration**
-• Dataset structure review
-• Duplicate detection
-• User coverage validation
-• Data quality assessment
+- Dataset structure review
+- Duplicate detection
+- User coverage validation
+- Data quality assessment
 
 **Data Cleaning**
-• Duplicate removal
-• Date standardization
-• Activity metric validation
-• Creation of analysis-ready tables
+- Duplicate removal
+- Date standardization
+- Activity metric validation
+- Creation of analysis-ready tables
 
 📓 SQL queries are available in the /sql folder
 
