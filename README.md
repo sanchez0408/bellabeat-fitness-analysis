@@ -56,7 +56,7 @@ March 2016 – May 2016
 
 The analysis followed a structured workflow:
 
-**Data exploration**
+**Exploratory Analysis**
 - Dataset structure review
 - Duplicate detection
 - User coverage validation
@@ -95,7 +95,7 @@ The analysis followed a structured workflow:
 ### 2. Sleep Habits
 #### 🔑 Key Findings
 - 76% of users fall below recommended sleep levels
-- Only 24% meet the recommended 7–8 o more hour range
+- Only 24% meet the recommended 7–8 hour range
 - Sleep duration increases on weekends
   
 #### ⚡ Insight
@@ -110,7 +110,7 @@ The analysis followed a structured workflow:
 
 #### ⚡ Insight
 
-- Activity alone does not fully explain sleep quality, but users with healthier activity profiles tend to show better sleep outcomes
+- Healthier activity profiles are generally associated with better sleep outcomes
 
 **Note: The previous analysis identified patterns between activity levels and sleep outcomes. To determine whether these patterns reflect meaningful relationships, a correlation analysis was performed between key activity and sleep variables**
 
@@ -131,7 +131,7 @@ The analysis followed a structured workflow:
 
 - Deliver notifications, challenges, and coaching content aligned with each user's preferred activity window
 
-**2. Highlight the Sleep–Sedentary Behavior Connection**
+**2. Promote Awareness of Sleep and Sedentary Behaviors**
 
 - Provide personalized insights showing how sedentary behavior may affect sleep duration
 
