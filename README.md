@@ -5,7 +5,7 @@ End-to-end fitness data analysis using SQL, BigQuery and Tableau to identify use
 
 ## 🏃 Bellabeat Fitness Data Analysis
 
-### 💻 Project Overview
+## 💻 Project Overview
 
 This project was completed as part of the Google Data Analytics Professional Certificate
 
@@ -13,7 +13,7 @@ The objective was to analyze smart device fitness data to identify user behavior
 
 Using SQL (BigQuery) and Tableau, the analysis explores physical activity, sleep habits, sedentary behavior, and the relationships between these metrics
 
-### 🎯 Business Task
+## 🎯 Business Task
 
 Bellabeat wants to better understand how consumers use smart fitness devices and how these insights can support future marketing and product strategies
 
@@ -29,7 +29,7 @@ Bellabeat wants to better understand how consumers use smart fitness devices and
 
 FitBit Fitness Tracker Data (Kaggle)
 
-### 📅 Period
+## 📅 Period
 
 March 2016 – May 2016
 
@@ -48,7 +48,7 @@ March 2016 – May 2016
 | GitHub         | Documentation and portfolio |
 
 
-### 📝 Data Preparation
+## 📝 Data Preparation
 
 The analysis followed a structured workflow:
 
@@ -67,7 +67,7 @@ The analysis followed a structured workflow:
 
 📓 SQL queries are available in the /sql folder
 
-Analysis Highlights
+## 📊 Analysis Highlights
 ## 1. Activity Patterns
 #### Key Findings:
 - Activity peaks occur around 12 PM, 6 PM, and 7 PM
@@ -126,7 +126,7 @@ Recommendations Dashboard
 
 (Insert image here)
 
-### 🏆 Business Recommendations
+## 🏆 Business Recommendations
 **1. Personalize Engagement by Activity Profile**
 
 - Deliver notifications, challenges, and coaching content aligned with each user's preferred activity window
