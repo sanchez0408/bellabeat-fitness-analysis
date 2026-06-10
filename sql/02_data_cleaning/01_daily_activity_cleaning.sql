@@ -1,5 +1,4 @@
 CREATE OR REPLACE TABLE `mon-projet-bigquery-481616.bellabeat_project_1.daily_activity_cleaning` AS
-/*WITH duplicates AS (*/
 SELECT
   Id,
   ActivityDate,
