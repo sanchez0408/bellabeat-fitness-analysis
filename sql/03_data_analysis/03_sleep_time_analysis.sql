@@ -53,22 +53,8 @@ ORDER BY avg_total_minutes_sleep DESC
   -- The average is between 69 and 534 minutes with a very heterogeneous number of uses: 1 and 62 days
 
 
--- 3.2 Sleep quality: ratio of actual sleep vs time in bed
 
-SELECT
-  Id,
-  ROUND(AVG(asleep), 0) AS avg_minutes_asleep,
-  ROUND(AVG(total_minutes_sleep), 0) AS avg_minutes_in_bed,
-  ROUND(AVG(asleep) / AVG(total_minutes_sleep) * 100, 1) AS sleep_efficiency_pct
-FROM `mon-projet-bigquery-481616.bellabeat_project_1.sleep_time_cleaning`
-GROUP BY Id
-ORDER BY sleep_efficiency_pct ASC
-
--- Observation:
-  -- 3 users have a sleep percentage below 80%, for the remaining users, the percentage is between 88.4% and 98.8%
-
-
--- 3.3 Sleep duration segmentation: how many users meet the recommended 7-8h?
+-- 3.2 Sleep duration segmentation: how many users meet the recommended 7-8h?
 
 WITH user_sleep_avg AS (
   SELECT
@@ -94,7 +80,7 @@ ORDER BY total_users DESC
   -- 12 out of 25 users sleep less than 6 hours and only 6 users are within the recommended sleep time
 
 
--- 3.4 Restlessness breakdown: average time asleep, restless and awake per user
+-- 3.3 Restlessness breakdown: average time asleep, restless and awake per user
 
 SELECT
   Id,
