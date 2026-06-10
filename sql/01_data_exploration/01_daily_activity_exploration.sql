@@ -59,9 +59,9 @@ ORDER BY Id
   -- Duplicates were resolved using MAX() aggregation on all numeric columns, keeping the highest value recorded per user and per day
 
 
--- ======================== --
--- STEP 8: DUPLICATE SEARCH --
--- ======================== --
+-- ============================== --
+-- STEP 8: VERIFICATION OF VALUES --
+-- ============================== --
 
 -- 8.1 Check consistency between total steps and distances:
 
@@ -172,36 +172,4 @@ ORDER BY pct_inactive DESC
 -- Decision:
   -- Given this data and the bias it could introduce into the analysis process, it is appropriate to remove data considered to represent a day without Fitbit and users with less than 10 days of data
 
-
-
--- 8.5 Segmenting Fitbit usage time:
-
--- Objective: Identify the number of minutes of activity per day to define a metric for analysis
-
-SELECT
-  CASE
-    WHEN (VeryActiveMinutes + FairlyActiveMinutes + LightlyActiveMinutes + SedentaryMinutes) < 480  THEN '<8h'
-    WHEN (VeryActiveMinutes + FairlyActiveMinutes + LightlyActiveMinutes + SedentaryMinutes) < 600  THEN '8h-10h'
-    WHEN (VeryActiveMinutes + FairlyActiveMinutes + LightlyActiveMinutes + SedentaryMinutes) < 720  THEN '10h-12h'
-    ELSE '>= 12h'
-  END AS time_slots,
-  COUNT(*) AS nb_jours,
-  ROUND(COUNT(*) / SUM(COUNT(*)) OVER() * 100, 1) AS pct
-FROM `mon-projet-bigquery-481616.bellabeat_project_1.daily_activity`
-GROUP BY time_slots
-ORDER BY
-  CASE
-    time_slots
-    WHEN '<8h' THEN 1
-    WHEN '8h-10h' THEN 2
-    WHEN '10h-12h' THEN 3
-    ELSE 4
-  END
-
--- Observation:
-  -- Since 96% of records exceed 720 minutes, this threshold was selected to define a valid full day of recording while preserving the vast majority of the dataset
-  -- This data will be used to identify user behavior
-  -- The other data will be reintegrated for frequency of use
-  
-  
--- The data was reviewed for potential non-wear days. Once cleaned, this dataset enables analysis of typical daily activity patterns, user activity segmentation, and average activity levels per user
+-- Upon reflection, this data is important for the analysis; it should allow us to understand user behavior and will be used in behavioral analysis
