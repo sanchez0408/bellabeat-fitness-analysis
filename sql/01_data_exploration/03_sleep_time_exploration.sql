@@ -21,34 +21,6 @@ WHERE table_name = 'sleep_time'
   -- Data is valid for analysis, proceeding to next step
 
 
--- ======================== --
--- STEP 2: GENERAL OVERVIEW --
--- ======================== --
-
-SELECT *
-FROM `mon-projet-bigquery-481616.bellabeat_project_1.sleep_time_cleaning`
-LIMIT 10
-
--- Observation:
-  -- sleep information for each day
-
--- Decision:
-  -- Data is valid for analysis, proceeding to next step
-
-
-
--- ============== --
--- STEP 3: VOLUME --
--- ============== --
-
-SELECT COUNT(*) AS nb_rows
-FROM `mon-projet-bigquery-481616.bellabeat_project_1.sleep_time`
-
-
--- Observation:
-  -- rows = 916
-
-
 
 -- ======================== --
 -- STEP 4: DUPLICATE SEARCH --
@@ -88,25 +60,6 @@ AND s.Date = d.Date
 -- Decision:
   -- After analyzing duplicates, the option to keep the highest value data will be used
   -- Aggregating the data would have yielded values ​​well above the maximum values ​​recommended by the NSF (720 minutes = 12 hours)
-
-
-
--- =========================== --
--- STEP 5: VALUES NULLs SEARCH --
--- =========================== --
-
-SELECT
-  COUNTIF(asleep IS NULL) AS asleep,
-  COUNTIF(restless IS NULL) AS restless,
-  COUNTIF(awake IS NULL) AS awake,
-  COUNTIF(total_minutes_sleep IS NULL) AS total_minutes_sleep
-FROM `mon-projet-bigquery-481616.bellabeat_project_1.sleep_time`
-
--- Observation:
-  -- No NULLs values
-
--- Decision:
-  -- Data is valid for analysis, proceeding to next step
 
 
 
@@ -171,25 +124,3 @@ WHERE Date = '2016-03-11'
 -- Decision:
   -- Delete data from 11/03/2016
 
-
-
--- ============================== --
--- STEP 8: VERIFICATION OF VALUES --
--- ============================== --
-
-SELECT
-  asleep,
-  restless,
-  awake,
-  total_minutes_sleep
-FROM `mon-projet-bigquery-481616.bellabeat_project_1.sleep_time`
-WHERE asleep < 0
-OR restless < 0
-OR awake < 0
-OR total_minutes_sleep < 0
-
--- Observation:
-  -- No negatives values
-
--- Decision:
-  -- Data is valid for analysis, proceeding to next step
