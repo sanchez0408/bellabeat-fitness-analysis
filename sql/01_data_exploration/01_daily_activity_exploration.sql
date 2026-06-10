@@ -1,14 +1,3 @@
-                        -- BELLABEAT PROJECT --
-                        -- TABLE: DAILY ACTIVITY --               
-                        -- DATE : 08/04/2026 --
-
-
-
-                        -- ================= --
-                        -- DATA EXPLORATION  --
-                        -- ================= --
-
-
 
 -- ================= --
 -- STEP 1: STRUCTURE --
@@ -70,71 +59,9 @@ ORDER BY Id
   -- Duplicates were resolved using MAX() aggregation on all numeric columns, keeping the highest value recorded per user and per day
 
 
--- ====================== --
--- STEP 6: NUMERICS STATS --
--- ====================== --
-
-
--- Distance metrics
-SELECT
-  MAX(TotalSteps) AS max_TotalSteps,
-  MIN(TotalSteps) AS min_TotalSteps,
-  AVG(TotalSteps) AS avg_TotalSteps,
-  MAX(TotalDistance) AS max_Totaldist,
-  MIN(TotalDistance) AS min_Totaldist,
-  AVG(TotalDistance) AS avg_Totaldist,
-  MAX(TrackerDistance) AS max_track_dist,
-  MIN(TrackerDistance) AS min_track_dist,
-  AVG(TrackerDistance) AS avg_track_dist,
-  MAX(LoggedActivitiesDistance) AS max_log_dist,
-  MIN(LoggedActivitiesDistance) AS min_log_dist,
-  AVG(LoggedActivitiesDistance) AS avg_log_dist,
-  MAX(VeryActiveDistance) AS max_VeryActive_dist,
-  MIN(VeryActiveDistance) AS min_VeryActive_dist,
-  AVG(VeryActiveDistance) AS avg_VeryActive_dist,
-  MAX(ModeratelyActiveDistance) AS max_ModeratelyActive_dist,
-  MIN(ModeratelyActiveDistance) AS min_ModeratelyActive_dist,
-  AVG(ModeratelyActiveDistance) AS avg_ModeratelyActive_dist,
-  MAX(LightActiveDistance) AS max_LightActive_dist,
-  MIN(LightActiveDistance) AS min_LightActive_dist,
-  AVG(LightActiveDistance) AS avg_LightActive_dist,
-  MAX(SedentaryActiveDistance) AS max_SedentaryActive_dist,
-  MIN(SedentaryActiveDistance) AS min_SedentaryActive_dist,
-  AVG(SedentaryActiveDistance) AS avg_SedentaryActive_dist
-FROM `mon-projet-bigquery-481616.bellabeat_project_1.daily_activity`
-
--- minutes metrics
-SELECT
-  MAX(VeryActiveMinutes) AS max_VeryActive_minute,
-  MIN(VeryActiveMinutes) AS min_VeryActive_minute,
-  AVG(VeryActiveMinutes) AS avg_VeryActive_minute,
-  MAX(FairlyActiveMinutes) AS max_FairlyActive_minute,
-  MIN(FairlyActiveMinutes) AS min_FairlyActive_minute,
-  AVG(FairlyActiveMinutes) AS avg_FairlyActive_minute,
-  MAX(LightlyActiveMinutes) AS max_LightlyActive_minute,
-  MIN(LightlyActiveMinutes) AS min_LightlyActive_minute,
-  AVG(LightlyActiveMinutes) AS avg_LightlyActive_minute,
-  MAX(SedentaryMinutes) AS max_SedentaryMinutes_minute,
-  MIN(SedentaryMinutes) AS min_SedentaryMinutes_minute,
-  AVG(SedentaryMinutes) AS avg_SedentaryMinutes_minute
-FROM `mon-projet-bigquery-481616.bellabeat_project_1.daily_activity`
-
--- Calories metrics
-SELECT
-  MAX(Calories) AS max_calories,
-  MIN(Calories) AS min_calories,
-  AVG(Calories) AS avg_calories
-FROM `mon-projet-bigquery-481616.bellabeat_project_1.daily_activity`
-
--- Observation:
-  -- Average total steps = 7,281
-  -- Average sedentary minutes = 992
-  -- Average calories = 2,266
-  -- The high level of sedentary behavior suggests a predominantly inactive user base, which will be studied in more detail during the analysis phase
-
--- Decision:
-  -- This pattern will be further explored in the analysis phase to better understand user behavior and activity trends
-
+-- ======================== --
+-- STEP 8: DUPLICATE SEARCH --
+-- ======================== --
 
 -- 8.1 Check consistency between total steps and distances:
 
