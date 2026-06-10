@@ -104,15 +104,14 @@ The analysis followed a structured workflow:
 
 ### 3. Activity & Sleep
 #### 🔑 Key Findings
-- More active users generally sleep longer
-- Higher activity levels are associated with fewer restless minutes
-- Sedentary time remains high across all groups
+- More active users generally experience fewer restless and awake minutes during sleep
+- Very active users burn substantially more calories than moderate users (+59%)
+- Sedentary time remains high across all activity segments
+- Sleep duration varies across segments and does not increase linearly with activity level
 
 #### ⚡ Insight
 
-- Healthier activity profiles are generally associated with better sleep outcomes
-
-📝 **Note:** The previous analysis identified patterns between activity levels and sleep outcomes. To determine whether these patterns reflect meaningful relationships, a correlation analysis was performed between key activity and sleep variables
+- Higher activity levels are consistently associated with better sleep quality indicators (less restless and awake time), while activity intensity is strongly linked to calorie expenditure
 
 ### 4. Activity Correlation Analysis
 #### 🔑 Key Findings
@@ -123,7 +122,7 @@ The analysis followed a structured workflow:
 
 #### ⚡ Insight
 
-- Sedentary behavior shows the strongest observed relationship with sleep duration, suggesting it may be an important factor to monitor alongside overall activity levels
+- Although more active groups tend to display better sleep quality indicators, the correlation analysis suggests that sedentary behavior is a stronger predictor of sleep duration than step count or very active minutes alone
 
 ---
 ## 🏆 Business Recommendations
