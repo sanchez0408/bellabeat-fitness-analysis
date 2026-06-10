@@ -135,7 +135,7 @@ ORDER BY avg_restless DESC
 
 -- 1. Small sample: only 25 users recorded sleep data — results are indicative, not statistically representative of a broader population
 
--- 2. No demographic data: age, gender, lifestyle context are unknown, making it impossible to control for confounding factors
+-- 2. No demographic data: age, lifestyle context are unknown, making it impossible to control for confounding factors
 
 -- 3. Short time window: data covers ~2 months (April–May 2016), which may not capture seasonal sleep patterns or long-term habits
 
@@ -149,17 +149,17 @@ ORDER BY avg_restless DESC
 -- STEP 6: CONCLUSION --
 -- ================== --
 
-
   -- Sleep data reveals that Fitbit users struggle with both sleep duration and quality:
   -- most users fall below the 7-8h recommendation, and a notable share spend significant time awake or restless in bed
 
+
   -- Recommendations for Bellabeat:
 
-  --   → Introduce a smart bedtime reminder feature in the app, triggered when the user has not started winding down by their usual sleep time
+  -- Introduce a smart bedtime reminder feature in the app, triggered when the user has not started winding down by their usual sleep time
 
-  --   → Surface a daily "sleep score" combining duration + efficiency to increase awareness and engagement with sleep tracking
+  -- Surface a daily "sleep score" combining duration + efficiency to increase awareness and engagement with sleep tracking
 
-  --   → Target under-sleepers (<6h segment) with in-app content on sleep hygiene, positioning Bellabeat as a wellness coach, not just a tracker
+  -- Target under-sleepers (<6h segment) with in-app content on sleep hygiene, positioning Bellabeat as a wellness coach, not just a tracker
 
-  --   → Investigate why ~24% of users don't record sleep — consider device comfort improvements or onboarding prompts to encourage night wear
+  -- Investigate why ~24% of users don't record sleep — consider device comfort improvements or onboarding prompts to encourage night wear
 
