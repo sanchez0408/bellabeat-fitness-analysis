@@ -32,11 +32,6 @@ Bellabeat wants to better understand how consumers use smart fitness devices and
 
 FitBit Fitness Tracker Data (Kaggle)
 
----
-## 📅 Period
-
-March 2016 – May 2016
-
 | Table            | Description                    | Users | 
 | ---------------- | ------------------------------ | ----- |
 | Daily Activity   | Daily activity metrics         | 35    |
@@ -50,6 +45,11 @@ March 2016 – May 2016
 | Tableau        | Data visualization          |
 | Kaggle         | Project publication         |
 | GitHub         | Documentation and portfolio |
+
+---
+## 📅 Period
+
+12 March 2016 – 12 May 2016
 
 ---
 ## 📝 Data Preparation
