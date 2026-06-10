@@ -1,6 +1,6 @@
-                       -- BELLABEAT PROJECT --
-                      -- TABLE: DAILY ACTIVITY --               
-              -- USER : GUILLAUME | DATE : 08/04/2026 --
+                        -- BELLABEAT PROJECT --
+                        -- TABLE: DAILY ACTIVITY --               
+                        -- DATE : 08/04/2026 --
 
 
 
