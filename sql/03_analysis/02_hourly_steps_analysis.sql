@@ -1,6 +1,6 @@
-        -- =============== --
-        -- STEP 1: CONTEXT --
-        -- =============== --
+-- =============== --
+-- STEP 1: CONTEXT --
+-- =============== --
 
 -- Objective:
  -- Analyse hourly user activity patterns
@@ -8,9 +8,9 @@
 
 
 
-        -- ===================== --
-        -- STEP 2: DATA OVERVIEW --
-        -- ===================== --
+-- ===================== --
+-- STEP 2: DATA OVERVIEW --
+-- ===================== --
 
 SELECT
   COUNT(*) AS total_rows,
@@ -46,9 +46,9 @@ FROM avg_step
 
 
 
-        -- ===================== --
-        -- STEP 3: MAIN ANALYSIS --
-        -- ===================== --
+-- ===================== --
+-- STEP 3: MAIN ANALYSIS --
+-- ===================== --
 
 -- 3.1 peak hourly activity
 
@@ -195,9 +195,9 @@ GROUP BY profile
 
 
 
-        -- ==================== --
-        -- STEP 4: KEY INSIGHTS --
-        -- ==================== --
+-- ==================== --
+-- STEP 4: KEY INSIGHTS --
+-- ==================== --
 
 -- 1. Strong intra-day variability in user activity:
   -- Hourly activity shows moderate average values but high variability across users, indicating that behavior is highly individual rather than driven by a shared daily routine. Peaks occur mainly at midday and evening.
@@ -213,9 +213,9 @@ GROUP BY profile
 
 
 
-        -- =================== --
-        -- STEP 5: LIMITATIONS --
-        -- =================== --
+-- =================== --
+-- STEP 5: LIMITATIONS --
+-- =================== --
 
 -- 1.Limited sample size:
 -- The dataset contains only 34 users, which is a relatively small sample. This limits the statistical representativeness of the results and makes it difficult to generalize findings to the entire Bellabeat user base
@@ -231,9 +231,9 @@ GROUP BY profile
 
 
 
-        -- ================== --
-        -- STEP 6: CONCLUSION --
-        -- ================== --
+-- ================== --
+-- STEP 6: CONCLUSION --
+-- ================== --
 
 -- 1. Summary of key findings:
   -- The analysis of hourly step data reveals that user activity is highly time-dependent and unevenly distributed throughout the day. Activity peaks occur mainly in the afternoon and evening, while nighttime periods show consistently low engagement
