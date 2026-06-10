@@ -130,7 +130,6 @@ FROM `mon-projet-bigquery-481616.bellabeat_project_1.hourly_steps`
   -- Check the activity by hour to identify any potential problems
 
 
-
 -- 8.2: Nighttime vs non-wearing: --
 
 -- Objective: Identify zero-step patterns by hour of day to distinguish natural inactivity (night) from potential non-wear periods
@@ -149,7 +148,6 @@ ORDER BY hour_of_day
 
 -- Decision:
   -- In order to identify potential activity biases, such as not wearing the Fitbit, an hourly inactivity check will be performed for each user throughout the day
-
 
 
 -- 8.3 hours of inactivity during the day: --
@@ -173,7 +171,6 @@ ORDER BY inactivity_hours DESC
 
 -- Decision:
   -- This introduces bias into the analysis because it skews the user data; therefore, this data will be removed during the pre-analysis cleanup
-
 
 
 -- 8.4 number of hours recorded in a day
