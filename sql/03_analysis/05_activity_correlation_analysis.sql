@@ -7,5 +7,5 @@ SELECT
   AVG(VeryActiveMinutes) AS avg_very_active,
   AVG(restless) AS avg_restless,
   AVG(SedentaryMinutes) AS avg_sedentary,
-FROM activity_and_sleep
+FROM `mon-projet-bigquery-481616.bellabeat_project_1.activity_and_sleep`
 GROUP BY Id
