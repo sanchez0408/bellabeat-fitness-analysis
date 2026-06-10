@@ -1,5 +1,5 @@
                        -- BELLABEAT PROJECT --
-                      -- TABLE: ACTIVITY MERGED --               
+                      -- TABLE: DAILY ACTIVITY --               
               -- USER : GUILLAUME | DATE : 08/04/2026 --
 
 
