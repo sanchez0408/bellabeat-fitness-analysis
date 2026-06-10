@@ -97,9 +97,9 @@ ORDER BY avg_restless DESC
 
 
 
--- ================ --
--- STEP 4: INSIGHTS --
--- ================ --
+-- ===================== --
+-- STEP 4: KEYS INSIGHTS --
+-- ===================== --
 
 
 -- 1. Only 25 out of 33 activity users record their sleep — roughly 24% do not wear the device at night, limiting data coverage and suggesting a comfort or habit gap
