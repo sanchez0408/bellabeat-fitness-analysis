@@ -102,13 +102,13 @@ ORDER BY avg_restless DESC
 -- ===================== --
 
 
--- 1. Only 25 out of 33 activity users record their sleep — roughly 24% do not wear the device at night, limiting data coverage and suggesting a comfort or habit gap
+-- 1. Only 25 out of 33 activity users record their sleep roughly 24% do not wear the device at night, limiting data coverage and suggesting a comfort or habit gap
 
 -- 2. Sleep duration is highly variable across users (from ~1h to ~9h average), indicating very different user profiles that could benefit from personalized nudges
 
--- 3. Weekend and Wednesday nights show higher average sleep duration — weekday constraints (work schedule) likely compress sleep on other nights
+-- 3. Weekend and Wednesday nights show higher average sleep duration weekday constraints (work schedule) likely compress sleep on other nights
 
--- 4. Sleep efficiency (asleep / time in bed) varies across users — some spend significant time restless or awake, pointing to sleep quality issues beyond duration
+-- 4. Sleep efficiency (asleep / time in bed) varies across users some spend significant time restless or awake, pointing to sleep quality issues beyond duration
 
 -- 5. A significant share of users likely fall below the recommended 7h threshold an opportunity for Bellabeat to promote its sleep tracking and bedtime reminders
 
@@ -119,13 +119,13 @@ ORDER BY avg_restless DESC
 -- =================== --
 
 
--- 1. Small sample: only 25 users recorded sleep data — results are indicative, not statistically representative of a broader population
+-- 1. Small sample: only 25 users recorded sleep data results are indicative, not statistically representative of a broader population
 
 -- 2. No demographic data: age, lifestyle context are unknown, making it impossible to control for confounding factors
 
 -- 3. Short time window: data covers ~2 months (April–May 2016), which may not capture seasonal sleep patterns or long-term habits
 
--- 4. Self-selection bias: users who wear their device at night may already be more health-conscious than average — results may skew positive
+-- 4. Self-selection bias: users who wear their device at night may already be more health-conscious than average results may skew positive
 
 -- 5. Device accuracy: restless/awake minutes are estimated by the accelerometer, not measured by clinical-grade sleep tracking (no EEG)
 
@@ -147,5 +147,5 @@ ORDER BY avg_restless DESC
 
   -- Target under-sleepers (<6h segment) with in-app content on sleep hygiene, positioning Bellabeat as a wellness coach, not just a tracker
 
-  -- Investigate why ~24% of users don't record sleep — consider device comfort improvements or onboarding prompts to encourage night wear
+  -- Investigate why ~24% of users don't record sleep consider device comfort improvements or onboarding prompts to encourage night wear
 
