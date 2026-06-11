@@ -22,7 +22,7 @@ SELECT
   b.restless,
   b.awake,
   b.total_minutes_sleep
-FROM `mon-projet-bigquery-481616.bellabeat_project_1.daily_activity_frequency` a
+FROM `mon-projet-bigquery-481616.bellabeat_project_1.daily_activity_cleaning` a
 INNER JOIN `mon-projet-bigquery-481616.bellabeat_project_1.sleep_time_cleaning` b
   ON CAST(a.Id AS STRING) = CAST(b.Id AS STRING)
   AND b.Date = DATE_ADD(a.ActivityDate, INTERVAL 1 DAY)
@@ -255,7 +255,7 @@ ORDER BY avg_sedentary_min ASC
   -- avg_asleep_min drops sharply as sedentary time increases: 446 → 392 → 155 min
   -- high sedentary users sleep less than 3h on average an extreme signal likely reflecting users who rarely wear the device at night
   -- avg_restless_min peaks in the moderate sedentary segment (33.6 min) then drops in high sedentary not a paradox: users sleeping only ~2.5h have less total time to accumulate restless minutes
-  -- low sedentary segment contains only 1 user — not representative, to be treated with caution in the analysis
+  -- low sedentary segment contains only 1 user not representative, to be treated with caution in the analysis
  
 
 
@@ -290,7 +290,7 @@ ORDER BY avg_sedentary_min ASC
 -- =================== --
 
 -- 1. Reduced sample: the INNER JOIN limits the dataset to 24 users and 605 rows
---    only days where both activity AND sleep were recorded are included, which may introduce selection bias toward more engaged users
+--    only days where both activity and sleep were recorded are included, which may introduce selection bias toward more engaged users
 
 -- 2. Weighted activity score (Very × 3 + Fairly × 2 + Lightly × 1) is an analytical
 --    proxy, not a validated scientific scale weights reflect relative intensity 
@@ -301,7 +301,7 @@ ORDER BY avg_sedentary_min ASC
 -- 4. No causal inference: correlations between activity, sleep and calories
 --    do not establish causality confounding factors (age, health status, stress, lifestyle) cannot be controlled without demographic data
 
--- 5. Short observation window: ~2 months of data may not reflect stable long-term habits — some users may have had atypical periods during the study
+-- 5. Short observation window: ~2 months of data may not reflect stable long-term habitssome users may have had atypical periods during the study
 
 -- 6. Device wear compliance: low sleep minutes in high sedentary users likely
 --    reflects non-wear at night rather than actual sleep deprivation device usage patterns confound sleep metrics
@@ -332,5 +332,5 @@ ORDER BY avg_sedentary_min ASC
   -- Address sedentary time with hourly movement nudges: 13h/day sedentary
   --      is a health risk signal that Bellabeat can directly act on via notifications
   -- Encourage consistent night wear: low sleep recording rates suggest many users
-  --      do not wear the device at night — onboarding prompts and comfort-focused
+  --      do not wear the device at night onboarding prompts and comfort-focused
   --      marketing could improve sleep data coverage and user engagement
